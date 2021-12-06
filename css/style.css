@@ -1,14 +1,10 @@
-/* Сперва общие правила */
-
 * {
     box-sizing: border-box
-    h1
-    {
-
-    }
 }
 
-/* Потом селекторы по тегам */
+h2 {
+    font-weight: bold;
+}
 
 html {
 
@@ -30,9 +26,11 @@ a {
 /* Колонки */
 
 .row {
-
+   display: flex;
 }
 .col {
+    flex: auto;
+    margin: 0px 30px 30px 0px
 
 }
 
@@ -44,7 +42,11 @@ a {
 }
 
 .button {
-
+    color:white;
+    background-color: #554AF0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 /* Потом специальные правила по страничкам */
@@ -52,8 +54,8 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    padding: 10px 115px 10px 20px;
+    margin-bottom: 20px;
 }
 
 
