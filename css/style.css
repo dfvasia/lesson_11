@@ -1,106 +1,124 @@
 * {
-    box-sizing: border-box
-}
 
+    box-sizing: border-box;
+}
 h2 {
-    font-weight: bold;
+    font-weight: bolder;
 }
-
+h3 {
+    font-weight: bolder;
+     font-size: 150%;
+}
 html {
-
+    background: #666666;
 }
-
 main {
+    background: white;
     width: 300px;
-    margin: 0px auto;
+    margin: 10px auto;
+    padding: 10px 50px 50px 20px;
 }
-
 p {
-
+    font-weight: 500;
+    font-family: Arial;
+    font-size: 120%;
 }
-
 a {
-
-}
-
-/* Колонки */
-
-.row {
-   display: flex;
-}
-.col {
-    flex: auto;
-    margin: 0px 30px 30px 0px
-
-}
-
-
-/* Потом селекторы по классам */
-
-.text-input {
-
-}
-
-.button {
     color:white;
     background-color: #554AF0;
     padding: 10px 20px 10px 20px;
     border-radius: 4px;
     text-decoration: none;
+    margin: 0px 10px;
 }
-
+/* Колонки */
+.row {
+    display: flex;
+}
+.col {
+        flex: auto;
+        margin: 0px 30px 30px 0px;
+}
+/* Потом селекторы по классам */
+.text-input {
+    padding: 10px 20px 10px 20px;
+}
+.button {
+        color:white;
+        background-color: #554AF0;
+        padding: 10px 20px 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+}
 /* Потом специальные правила по страничкам */
-
 /* Login*/
-
 .input-login {
-    padding: 10px 115px 10px 20px;
-    margin-bottom: 20px;
+        padding: 10px 115px 10px 20px;
+        margin-bottom: 20px;
 }
-
-
 /* Страничка жанров и тегов */
-
 .genre-first {
-
+    background-color: #E1F5EA;
+    margin-right: 0%;
+    padding: 10px 115px 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 90%;
 }
-
 .genre-second {
-
+    background-color: #CBEDFF;
+    margin-right: 25%;
+    padding: 10px 115px 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 90%;
 }
-
 .genre-third {
-
+    background-color: #EB7CF7;
+    margin-right: 50%;
+    padding: 10px 70px 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 90%;
 }
-
 .genre-fourth {
-
+    background-color: #EBDCF9;
+    margin-right: 75%;
+    padding: 10px 70px 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 90%;
 }
-
 .tag {
-
+    color: blue;
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    border-radius: 4px;
+    text-decoration: underline;
+    margin: 0px 10px;
+    flex: auto;
 }
-
 /* Страничка популярного */
-
-.cover {
-
-}
-
+input[type="checkbox"]{
+    width:18px;
+    height: 18px;
+    margin-top: 1%;
+    vertical-align: middle;
+    }
 /* Страничка подписки  */
-
 .box-green {
-
 }
-
 .box-purple {
-
 }
-
 .text-large {
-
 }
-
 .button-link {
-
 }
